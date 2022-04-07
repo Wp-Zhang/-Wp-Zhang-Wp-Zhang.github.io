@@ -1,5 +1,5 @@
 baseURL: "https://wp-zhang.github.io/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: YPang's Blog
+title: YPaang's Blog
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
@@ -23,12 +23,12 @@ languages:
     weight: 1
     profileMode:
       enabled: true
-      title: YPang's Blog
+      title: YPaang's Blog
       imageUrl: "avatar.jpg"
       imageTitle: Me
       # imageWidth: 120
       # imageHeight: 120
-      subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+      subtitle: "💻 | 📙 | 🎹 | 📺"
       buttons:
         - name: Blog
           url: posts
@@ -38,13 +38,16 @@ languages:
       main:
         - name: Search
           url: search/
-          weight: 10
+          weight: 5
         - name: Archive
           url: archives
-          weight: 5
+          weight: 10
         - name: Tags
           url: tags/
-          weight: 10
+          weight: 15
+        - name: About
+          url: about
+          weight: 20
 
 outputs:
   home:
@@ -69,7 +72,7 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true
   comments: false
-  images: ["papermod-cover.png"]
+  # images: ["papermod-cover.png"]
 
   profileMode:
     enabled: false
