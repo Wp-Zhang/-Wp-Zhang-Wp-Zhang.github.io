@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://wp-zhang.github.io/sitemap.xml

@@ -2,6 +2,7 @@ baseURL: "https://wp-zhang.github.io/" # if your site is in 'https', then make s
 title: YPang's Blog
 paginate: 5
 theme: PaperMod
+publishDir: "docs"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
