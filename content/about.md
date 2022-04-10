@@ -34,6 +34,6 @@ disableShare: true
 
 Hi there~
 
-I'm Weipeng Zhang and you can call me YPaang(easier to pronounce).
+I'm Weipeng Zhang and you can call me Y.Paang (much easier to pronounce).
 
 I'm currently an MSDS student at Northeastern University, US. I have experience in machine learning, data modeling, and data engineering.

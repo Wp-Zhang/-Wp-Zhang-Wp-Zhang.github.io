@@ -1,5 +1,5 @@
 baseURL: "https://wp-zhang.github.io/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: YPaang's Blog
+title: Y.Paang's Blog
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
@@ -23,7 +23,7 @@ languages:
     weight: 1
     profileMode:
       enabled: true
-      title: YPaang's Blog
+      title: Y.Paang's Blog
       imageUrl: "avatar.jpg"
       imageTitle: Me
       # imageWidth: 120
