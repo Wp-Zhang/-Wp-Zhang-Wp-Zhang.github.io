@@ -38,4 +38,22 @@ We can further encode categorical features with other features, e.g. statistical
 
 We can intersect different features and generate new features to improve the fitting ability of our model.
 
-For high-dimensional features, we can first represent them in lower dimensions and then intersect them. A typical case is using eigenvectors to represent users and items in a recommender system and then intersecting the eigenvectors to represent the relationship between users and items.
+For high-dimensional features, we can first represent them in lower dimensions and then intersect them. A typical case is in the context of recommendation, we use matrix factorization to represent users and items in lower dimension vectors and then intersect the vectors to represent the relationship between users and items.
+
+### 4. How to efficiently find the features to be intersected?
+
+- We can intersect high-importance features based on the feature importance provided by models.
+- We can generate intersected features with practical meanings, e.g. dividing price by area can get the price per sqft.
+- We can train a decision tree and get inspiration from the structure of the trained tree. Every path from the root node to a leaf node can be seen as a way of intersecting features.
+
+### 5. List some text representation models as well as their advantages and disadvantages.
+
+### 6. How does Word2Vec work? What's the difference between it and LDA?
+
+### 7. What problem will insufficient data bring in the context of image classification? How can we solve it?
+
+Insufficient data may lead to model overfitting. To solve the problem, we can:
+
+1. Simplify the model, add regularization, and dropout.
+2. Data augmentation by image rotation, flipping, shifting, etc.
+3. Transfer learning. Fine-tune a pre-trained model trained on the small dataset.
