@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wp-zhang.github.io/posts/crack-machine-learning-interviews/</loc>
+    <lastmod>2022-05-15T21:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wp-zhang.github.io/tags/interview/</loc>
+    <lastmod>2022-05-15T21:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wp-zhang.github.io/tags/machine-learning/</loc>
+    <lastmod>2022-05-15T21:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wp-zhang.github.io/posts/</loc>
+    <lastmod>2022-05-15T21:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wp-zhang.github.io/tags/</loc>
+    <lastmod>2022-05-15T21:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wp-zhang.github.io/</loc>
+    <lastmod>2022-05-15T21:40:00+00:00</lastmod>
+  </url><url>
     <loc>https://wp-zhang.github.io/about/</loc>
   </url><url>
     <loc>https://wp-zhang.github.io/archives/</loc>
@@ -11,9 +29,5 @@
     <loc>https://wp-zhang.github.io/search/</loc>
   </url><url>
     <loc>https://wp-zhang.github.io/series/</loc>
-  </url><url>
-    <loc>https://wp-zhang.github.io/tags/</loc>
-  </url><url>
-    <loc>https://wp-zhang.github.io/</loc>
   </url>
 </urlset>

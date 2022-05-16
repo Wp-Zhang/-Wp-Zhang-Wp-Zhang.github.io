@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>YPaang&#39;s Blog</title>
+    <title>Y.Paang&#39;s Blog</title>
     <link>https://wp-zhang.github.io/</link>
-    <description>Recent content on YPaang&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wp-zhang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content on Y.Paang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 15 May 2022 21:40:00 +0000</lastBuildDate><atom:link href="https://wp-zhang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crack Machine Learning Interviews</title>
+      <link>https://wp-zhang.github.io/posts/crack-machine-learning-interviews/</link>
+      <pubDate>Sun, 15 May 2022 21:40:00 +0000</pubDate>
+      
+      <guid>https://wp-zhang.github.io/posts/crack-machine-learning-interviews/</guid>
+      <description>My note of reading 百面机器学习(The Quest for Machine Learning)</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://wp-zhang.github.io/about/</link>
@@ -12,7 +22,7 @@
       
       <guid>https://wp-zhang.github.io/about/</guid>
       <description>Hi there~
-I&amp;rsquo;m Weipeng Zhang and you can call me YPaang(easier to pronounce).
+I&amp;rsquo;m Weipeng Zhang and you can call me Y.Paang (much easier to pronounce).
 I&amp;rsquo;m currently an MSDS student at Northeastern University, US. I have experience in machine learning, data modeling, and data engineering.</description>
     </item>
     
