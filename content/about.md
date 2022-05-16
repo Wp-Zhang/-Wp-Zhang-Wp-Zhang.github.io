@@ -36,4 +36,6 @@ Hi there~
 
 I'm Weipeng Zhang and you can call me Y.Paang (much easier to pronounce).
 
-I'm currently an MSDS student at Northeastern University, US. I have experience in machine learning, data modeling, and data engineering.
+I'm currently an MSDS student at Northeastern University, Boston, US. I'm a machine learning and data mining enthusiast and have work experience in data engineering.
+
+I love to spend my spare time participating in Kaggle competitions. I'm currently a Kaggle Competition Expert and have won 2 silver medals (one recently) so far.

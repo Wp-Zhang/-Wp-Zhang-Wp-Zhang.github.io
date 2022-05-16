@@ -5,14 +5,26 @@
     <link>https://wp-zhang.github.io/posts/</link>
     <description>Recent content in Posts on Y.Paang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 May 2022 21:40:00 +0000</lastBuildDate><atom:link href="https://wp-zhang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 23:55:00 +0000</lastBuildDate><atom:link href="https://wp-zhang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collaborative Filtering</title>
+      <link>https://wp-zhang.github.io/posts/collaborative-filtering/</link>
+      <pubDate>Sun, 15 May 2022 23:55:00 +0000</pubDate>
+      
+      <guid>https://wp-zhang.github.io/posts/collaborative-filtering/</guid>
+      <description>UserCF UserCF uses ratings of the target item from top N similar users to predict the rating from the current user. There are mainly two steps:
+Steps 1. Calculate similarities between users. There are three common ways of calculating user similarities:
+a. Jaccard Similarity: $$J_{u,v} = \frac{|N(u) \cap N(v)|}{|N(u) \cup N(v)|}$$ $N(u)$ denotes the interacted item set of user $u$.
+b. Cosine Similarity: $$cos(u,v) = \frac{u\cdot v}{|u|\cdot|v|}$$ $u$ and $v$ denote the rating vectors of two users respectively.</description>
+    </item>
+    
     <item>
       <title>Crack Machine Learning Interviews</title>
       <link>https://wp-zhang.github.io/posts/crack-machine-learning-interviews/</link>
       <pubDate>Sun, 15 May 2022 21:40:00 +0000</pubDate>
       
       <guid>https://wp-zhang.github.io/posts/crack-machine-learning-interviews/</guid>
-      <description>My note of reading 百面机器学习(The Quest for Machine Learning)</description>
+      <description>My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update.</description>
     </item>
     
   </channel>

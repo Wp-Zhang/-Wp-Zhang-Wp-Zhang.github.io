@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Crack Machine Learning Interviews | Y.Paang&#39;s Blog</title>
-<meta name="keywords" content="interview, machine learning">
-<meta name="description" content="My note of reading 百面机器学习(The Quest for Machine Learning)">
+<meta name="keywords" content="Interview, Machine Learning">
+<meta name="description" content="My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update.">
 <meta name="author" content="Weipeng Zhang">
 <link rel="canonical" href="https://wp-zhang.github.io/posts/crack-machine-learning-interviews/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.813b6f38073e82d8593046025a26526b083886ca113854c6a7e32e56d4f79a6d.css" integrity="sha256-gTtvOAc&#43;gthZMEYCWiZSawg4hsoROFTGp&#43;MuVtT3mm0=" rel="preload stylesheet" as="style">
@@ -69,7 +69,7 @@
     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 <meta property="og:title" content="Crack Machine Learning Interviews" />
-<meta property="og:description" content="My note of reading 百面机器学习(The Quest for Machine Learning)" />
+<meta property="og:description" content="My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wp-zhang.github.io/posts/crack-machine-learning-interviews/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-05-15T21:40:00&#43;00:00" />
@@ -77,7 +77,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Crack Machine Learning Interviews"/>
-<meta name="twitter:description" content="My note of reading 百面机器学习(The Quest for Machine Learning)"/>
+<meta name="twitter:description" content="My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update."/>
 
 
 <script type="application/ld+json">
@@ -106,9 +106,9 @@
   "@type": "BlogPosting",
   "headline": "Crack Machine Learning Interviews",
   "name": "Crack Machine Learning Interviews",
-  "description": "My note of reading 百面机器学习(The Quest for Machine Learning)",
+  "description": "My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update.",
   "keywords": [
-    "interview", "machine learning"
+    "Interview", "Machine Learning"
   ],
   "articleBody": "Feature Engineering 1. Why do we need to apply normalization to numerical features? There are two common ways of normalization:\na. Min-Max Scaling\n$$X_{norm} = \\frac{X-X_{min}}{X_{max}-X_{min}}$$\nThis method can scale the data into a range of [0,1).\nb. Z-Score Normalization\n$$z = \\frac{x-\\mu}{\\rho}, \\quad \\rho=\\sqrt{\\sum\\frac{(x_i-\\mu)^2}{N}}$$\nThis method will scale the data and make the mean value and standard deviation of the new data become 0 and 1 respectively.\nWhen the scales of features are different, the gradients of weights of features can be very different, leading to a different ’learning pace’ of each weight, shown as a zig-zag on the gradient plot. Scaling features can make the ’learning pace’ of each weight become closer and let the model converge faster.\nScaling the features can be useful when the model uses gradient descent to update the parameters. Otherwise, it may not make a difference, e.g. when the model is a decision tree.\n2. How do we handle categorical features? We can use Ordinal Encoding, One-hot Encoding, and Binary Encoding based on the categorical feature itself. In deep learning, we can learn an embedding representation of a categorical feature, which can be seen as an advanced way of One-hot Encoding and Binary Encoding.\nWe can further encode categorical features with other features, e.g. statistical values of numerical features of each category, and target encoding.\n3. What is Feature Intersection? How do we intersect high-dimensional features? We can intersect different features and generate new features to improve the fitting ability of our model.\nFor high-dimensional features, we can first represent them in lower dimensions and then intersect them. A typical case is using eigenvectors to represent users and items in a recommender system and then intersecting the eigenvectors to represent the relationship between users and items.\n",
   "wordCount" : "293",
@@ -207,7 +207,7 @@
       Crack Machine Learning Interviews
     </h1>
     <div class="post-description">
-      My note of reading 百面机器学习(The Quest for Machine Learning)
+      My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update.
     </div>
     <div class="post-meta"><span title='2022-05-15 21:40:00 +0000 UTC'>May 15, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Weipeng Zhang&nbsp;|&nbsp;<a href="https://github.com/Wp-Zhang/Wp-Zhang.github.io/tree/master/content/posts/Crack%20Machine%20Learning%20Interviews.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
@@ -259,14 +259,21 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://wp-zhang.github.io/tags/interview/">interview</a></li>
-      <li><a href="https://wp-zhang.github.io/tags/machine-learning/">machine learning</a></li>
+      <li><a href="https://wp-zhang.github.io/tags/interview/">Interview</a></li>
+      <li><a href="https://wp-zhang.github.io/tags/machine-learning/">Machine Learning</a></li>
     </ul>
+<nav class="paginav">
+  <a class="prev" href="https://wp-zhang.github.io/posts/collaborative-filtering/">
+    <span class="title">« Prev Page</span>
+    <br>
+    <span>Collaborative Filtering</span>
+  </a>
+</nav>
 
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Crack Machine Learning Interviews on twitter"
-        href="https://twitter.com/intent/tweet/?text=Crack%20Machine%20Learning%20Interviews&amp;url=https%3a%2f%2fwp-zhang.github.io%2fposts%2fcrack-machine-learning-interviews%2f&amp;hashtags=interview%2cmachinelearning">
+        href="https://twitter.com/intent/tweet/?text=Crack%20Machine%20Learning%20Interviews&amp;url=https%3a%2f%2fwp-zhang.github.io%2fposts%2fcrack-machine-learning-interviews%2f&amp;hashtags=Interview%2cMachineLearning">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
