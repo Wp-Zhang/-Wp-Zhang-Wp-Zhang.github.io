@@ -1,5 +1,5 @@
 ---
-title: "Crack Machine Learning Interviews"
+title: "Cracking the Machine Learning Interview"
 date: 2022-05-15 21:40:00
 tags: ["Interview", "Machine Learning"]
 description: "My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update."
