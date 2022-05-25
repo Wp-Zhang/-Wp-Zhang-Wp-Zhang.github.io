@@ -1,5 +1,5 @@
 ---
-title: "Collaborative Filtering"
+title: "Retrieval 01: Collaborative Filtering"
 date: 2022-05-15 23:55:00
 tags: ["Recommender System", "Recommending - Retrieval", "Machine Learning"]
 ---
@@ -85,7 +85,7 @@ The more popluar an item is, the more penalty it will get.
 
 $$sim_{p,q} = \frac{|N(p) \cap N(q)|}{|N(p)|^{1-\alpha}\cdot |N(q)|^\alpha}$$
 
-We can introduce a hyper parameter $\alpha$ to contral the penalties for popular items.
+We can introduce a hyperparameter $\alpha$ to control the penalties for popular items.
 
 #### Add penalties for extremely active users
 
@@ -99,7 +99,7 @@ $I(u)$ here denotes the set of items bought by user $u$. For an unusually active
 
 ## Conclusion
 
-- One of the pros of Collaborative Filtering is that it only requires user-item interaction history as input. However, it's also one of the cons because it cannot utilize other item and user features.
+- One of the pros of Collaborative Filtering is that it only requires user-item interaction history as input. However, it's also one of the cons because it cannot utilize other items and user features.
 - Popular items are likely to be similar to a large number of items, while tail items are rarely recommended due to sparse interactive vectors.
 
 ---

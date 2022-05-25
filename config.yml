@@ -99,6 +99,12 @@ params:
       url: "https://github.com/wp-zhang"
     # - name: KoFi
     #   url: "https://ko-fi.com/adityatelange"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/weipeng-zhang/?locale=en_US"
+    - name: kaggle
+      url: "https://www.kaggle.com/weipengzhang"
+    - name: email
+      url: "wp.zhang@hotmail.com"
     - name: RsS
       url: "index.xml"
 
