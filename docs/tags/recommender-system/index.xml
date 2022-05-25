@@ -5,9 +5,18 @@
     <link>https://wp-zhang.github.io/tags/recommender-system/</link>
     <description>Recent content in Recommender System on Y.Paang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 May 2022 23:55:00 +0000</lastBuildDate><atom:link href="https://wp-zhang.github.io/tags/recommender-system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 11:22:00 +0000</lastBuildDate><atom:link href="https://wp-zhang.github.io/tags/recommender-system/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Collaborative Filtering</title>
+      <title>Retrieval 02: Swing and Surprise</title>
+      <link>https://wp-zhang.github.io/posts/swing/</link>
+      <pubDate>Wed, 25 May 2022 11:22:00 +0000</pubDate>
+      
+      <guid>https://wp-zhang.github.io/posts/swing/</guid>
+      <description>There are two very important types of relationships between products: substitute and complementary. Substitute products are those that are interchangeable while complementary products are those that might be purchased in addition. For example, when a user is looking at a T-shirt, substitute products are other different types of T-shirts and complementary products can be shorts, hoodies or jackets. Swing is designed for substitute relationships and Surprise is designed for complementary relationships.</description>
+    </item>
+    
+    <item>
+      <title>Retrieval 01: Collaborative Filtering</title>
       <link>https://wp-zhang.github.io/posts/collaborative-filtering/</link>
       <pubDate>Sun, 15 May 2022 23:55:00 +0000</pubDate>
       

@@ -5,9 +5,18 @@
     <link>https://wp-zhang.github.io/posts/</link>
     <description>Recent content in Posts on Y.Paang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 May 2022 23:55:00 +0000</lastBuildDate><atom:link href="https://wp-zhang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 11:22:00 +0000</lastBuildDate><atom:link href="https://wp-zhang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Collaborative Filtering</title>
+      <title>Retrieval 02: Swing and Surprise</title>
+      <link>https://wp-zhang.github.io/posts/swing/</link>
+      <pubDate>Wed, 25 May 2022 11:22:00 +0000</pubDate>
+      
+      <guid>https://wp-zhang.github.io/posts/swing/</guid>
+      <description>There are two very important types of relationships between products: substitute and complementary. Substitute products are those that are interchangeable while complementary products are those that might be purchased in addition. For example, when a user is looking at a T-shirt, substitute products are other different types of T-shirts and complementary products can be shorts, hoodies or jackets. Swing is designed for substitute relationships and Surprise is designed for complementary relationships.</description>
+    </item>
+    
+    <item>
+      <title>Retrieval 01: Collaborative Filtering</title>
       <link>https://wp-zhang.github.io/posts/collaborative-filtering/</link>
       <pubDate>Sun, 15 May 2022 23:55:00 +0000</pubDate>
       
@@ -19,11 +28,11 @@ b. Cosine Similarity: $$cos(u,v) = \frac{u\cdot v}{|u|\cdot|v|}$$ $u$ and $v$ de
     </item>
     
     <item>
-      <title>Crack Machine Learning Interviews</title>
-      <link>https://wp-zhang.github.io/posts/crack-machine-learning-interviews/</link>
+      <title>Cracking the Machine Learning Interview</title>
+      <link>https://wp-zhang.github.io/posts/cracking-the-machine-learning-interview/</link>
       <pubDate>Sun, 15 May 2022 21:40:00 +0000</pubDate>
       
-      <guid>https://wp-zhang.github.io/posts/crack-machine-learning-interviews/</guid>
+      <guid>https://wp-zhang.github.io/posts/cracking-the-machine-learning-interview/</guid>
       <description>My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update.</description>
     </item>
     
