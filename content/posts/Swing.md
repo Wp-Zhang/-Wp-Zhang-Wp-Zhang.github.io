@@ -1,6 +1,6 @@
 ---
 title: "Retrieval 02: Swing and Surprise"
-date: 2022-05-18 11:22:00
+date: 2022-05-25 11:22:00
 tags: ["Recommender System", "Recommending - Retrieval", "Machine Learning"]
 ---
 
