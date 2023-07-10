@@ -44,5 +44,5 @@ I love to spend my spare time participating in Kaggle competitions. I'm currentl
 
 **Work Experience**
 
-- Data Engineer Intern @ TikTok, Beijing, China, 2021.06 ~ 2022.01
-- Data Scientist Intern @ Amazon Robotics, Boston, US, 2023.01 ~ 2023.06
+- 2020.06 ~ 2021.01 - Data Engineer Intern @ TikTok, Beijing, China
+- 2023.01 ~ 2023.06 - Data Scientist Intern @ Amazon Robotics, Boston, US
