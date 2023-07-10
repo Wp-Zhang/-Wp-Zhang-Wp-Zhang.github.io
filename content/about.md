@@ -30,12 +30,19 @@ disableShare: true
 #     Text: "Suggest Changes" # edit text
 #     appendFilePath: true # to append file path to Edit link
 ---
-<a href="url"><img src="me.jpg" height="auto" width="100" style="border-radius:10%"></a>
+<a href="url"><img src="me.png" height="auto" width="100" style="border-radius:10%"></a>
 
 Hi there~
 
-I'm Weipeng Zhang and you can call me Y.Paang (much easier to pronounce).
+I'm Weipeng Zhang and you can call me Yai Paang (much easier to pronounce).
 
-I'm currently an MSDS student at Northeastern University, Boston, US. I'm a machine learning and data mining enthusiast and have work experience in data engineering.
+I'm currently an MSDS student at Northeastern University, Boston, US. I'm a machine learning and data mining enthusiast.
 
-I love to spend my spare time participating in Kaggle competitions. I'm currently a Kaggle Competition Expert and have won 2 silver medals (one recently) so far.
+I love to spend my spare time participating in Kaggle competitions. I'm currently a Kaggle Competition Expert and have won 2 silver medals so far.
+
+---
+
+**Work Experience**
+
+- Data Engineer Intern @ TikTok, Beijing, China, 2021.06 ~ 2022.01
+- Data Scientist Intern @ Amazon Robotics, Boston, US, 2023.01 ~ 2023.06
