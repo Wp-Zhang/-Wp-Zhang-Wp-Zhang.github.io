@@ -148,11 +148,11 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Cracking the Machine Learning Interview
+    <h2>Cracking Machine Learning Interviews - 01 Feature Engineering
     </h2>
   </header>
   <section class="entry-content">
-    <p>Feature Engineering 1. Why do we need to apply normalization to numerical features? There are two common ways of normalization:
+    <p>1. Why do we need to apply normalization to numerical features? There are two common ways of normalization:
 a. Min-Max Scaling
 $$X_{norm} = \frac{X-X_{min}}{X_{max}-X_{min}}$$
 This method can scale the data into a range of [0,1).
@@ -161,13 +161,29 @@ $$z = \frac{x-\mu}{\rho}, \quad \rho=\sqrt{\sum\frac{(x_i-\mu)^2}{N}}$$
 This method will scale the data and make the mean value and standard deviation of the new data become 0 and 1 respectively.
 When the scales of features are different, the gradients of weights of features can be very different, leading to a different ’learning pace’ of each weight, shown as a zig-zag on the gradient plot....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-05-15 21:40:00 +0000 UTC'>May 15, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Weipeng Zhang</footer>
-  <a class="entry-link" aria-label="post link to Cracking the Machine Learning Interview" href="https://wp-zhang.github.io/posts/cracking-the-machine-learning-interview/"></a>
+  <footer class="entry-footer"><span title='2022-05-15 21:40:00 +0000 UTC'>May 15, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Weipeng Zhang</footer>
+  <a class="entry-link" aria-label="post link to Cracking Machine Learning Interviews - 01 Feature Engineering" href="https://wp-zhang.github.io/posts/cracking-machine-learning-interviews-01-feature-engineering/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Cracking Machine Learning Interviews - 02 Model Evaluation
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>The limitation of metrics.
+1. What’s the limitation of accuracy? When the positive samples and negative samples are imbalanced, accuracy may not correctly reflect the performance of the model.
+2. How do we balance precision and recall rate? We can use the Precision-Recall curve, ROC or F1 score to evaluate the performance of a ranking/classification model.
+$$F1 = \frac{2\times precision \times recall}{precision &#43; recall}$$
+3. The RMSE of the model is high but 95% of samples in the test set are predicted with a small error, why is that?...</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-05-15 21:40:00 +0000 UTC'>May 15, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Weipeng Zhang</footer>
+  <a class="entry-link" aria-label="post link to Cracking Machine Learning Interviews - 02 Model Evaluation" href="https://wp-zhang.github.io/posts/cracking-machine-learning-interviews-02-model-evaluation/"></a>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://wp-zhang.github.io/">Y.Paang&#39;s Blog</a></span>
+    <span>&copy; 2023 <a href="https://wp-zhang.github.io/">Y.Paang&#39;s Blog</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

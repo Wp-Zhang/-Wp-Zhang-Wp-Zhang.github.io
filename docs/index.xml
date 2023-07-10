@@ -28,11 +28,20 @@ b. Cosine Similarity: $$cos(u,v) = \frac{u\cdot v}{|u|\cdot|v|}$$ $u$ and $v$ de
     </item>
     
     <item>
-      <title>Cracking the Machine Learning Interview</title>
-      <link>https://wp-zhang.github.io/posts/cracking-the-machine-learning-interview/</link>
+      <title>Cracking Machine Learning Interviews - 01 Feature Engineering</title>
+      <link>https://wp-zhang.github.io/posts/cracking-machine-learning-interviews-01-feature-engineering/</link>
       <pubDate>Sun, 15 May 2022 21:40:00 +0000</pubDate>
       
-      <guid>https://wp-zhang.github.io/posts/cracking-the-machine-learning-interview/</guid>
+      <guid>https://wp-zhang.github.io/posts/cracking-machine-learning-interviews-01-feature-engineering/</guid>
+      <description>My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update.</description>
+    </item>
+    
+    <item>
+      <title>Cracking Machine Learning Interviews - 02 Model Evaluation</title>
+      <link>https://wp-zhang.github.io/posts/cracking-machine-learning-interviews-02-model-evaluation/</link>
+      <pubDate>Sun, 15 May 2022 21:40:00 +0000</pubDate>
+      
+      <guid>https://wp-zhang.github.io/posts/cracking-machine-learning-interviews-02-model-evaluation/</guid>
       <description>My note of reading 百面机器学习(The Quest for Machine Learning). Daily Update.</description>
     </item>
     
